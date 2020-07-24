@@ -16,7 +16,6 @@ body {
     height: 600px;
     background-color: #310000;
     display: block;
-    
     font-family: Georgia, 'Times New Roman', Times, serif;
     
 }
@@ -47,7 +46,6 @@ small {
     display: flex;
     justify-content: center;
     align-items: center;
-    list-style-type: none;
 
 }
 .header-menu li {
@@ -84,8 +82,20 @@ li {
     background-color: firebrick;
     width: 100%;
     height: auto;
-    display: block;
-    margin-top: -20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.ser-title {
+    width: 25%;
+    height: 310px;
+}
+.title {
+    width: 20%;
+    height: 310px;
+    background-color: white;
+    margin: auto;
 }
 .footer {
     background-color: #310000;
@@ -99,10 +109,11 @@ li {
     margin: auto;
     display: flex;
     padding: auto;
+    justify-content: space-between;
 }
 .footer-in4 {
     width: 20%;
-    margin: auto;
+    
 }
 .footer-in4 p {
     padding: auto;
@@ -116,4 +127,82 @@ li {
     padding: auto;
     color: seagreen;
     text-decoration: none;
+}
+#d :hover{
+    color: rgb(6, 56, 23);
+}
+.footer-in4 div p {
+    color: seagreen; 
+    border-bottom:gray solid 1px; 
+    padding-bottom: 10px;
+}
+.footer-in4 div input {
+    background-color: rgb(44, 43, 43);
+}
+.slide {
+    width: 100%;
+    margin: auto;
+}
+.mid {
+    width: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    position: absolute;
+    top: 150px;
+}
+.btnl {
+    color: white;
+    font-size: 250%;
+    font-weight: bolder;
+    padding:10px;
+    margin: 10px;
+    padding-right: 100px;
+}
+.slide-text {
+    width: 25%;
+    color: white;
+    font-size: 300%;
+    margin: 10px;
+    padding-right: 50px;
+}
+.cir {
+    width: 380px;
+    height: 380px;
+    border-radius: 50%;
+    border: rgb(43, 43, 43) solid 15px;
+    background-color: gray; 
+}
+.btnr {
+    color: white;
+    font-size: 250%;
+    font-weight: bolder;
+    padding:10px;
+    margin: 10px;
+    padding-left: 100px;
+}
+input {
+    width: 250px;
+    height: 35px;
+    border-radius: 10px;
+    margin: 5px;
+    margin-left: 0;
+}
+button {
+    background-color: #76c38f;
+    border-radius: 10px;
+    border: none;
+    color: white;
+    width: 100px;
+    height: 40px;
+    margin: 5px;
+    margin-left: 0;
+    cursor: pointer;
+    text-decoration: none;
+
+}
+button :hover {
+    background-color: rgb(8, 36, 16);
 }
