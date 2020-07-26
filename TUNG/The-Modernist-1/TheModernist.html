@@ -4,6 +4,18 @@
         <Title>PSD</Title>
         <link rel="stylesheet" href="style1.css">
     </head>
+    <script>
+        $(document).ready(function(){
+                $('.arr-r-c').click(function(){
+                $('.slide-mid').animate({left:'-100%'});
+                $('.slide-right').animate({right:'0'});
+            });
+            $('.arr-l-c').click(function(){
+                $('.slide-mid').animate({right:'-100%'});
+                $('.slide-left').animate({left:'0'});
+            });
+        });
+    </script>
     <body>
         <div class="box">
             <div class="banner">
@@ -24,9 +36,25 @@
                     </div>
                 </div>
                 <div class="slide">
+                    <div class="slide-left">
+                        <div id="t-slide">
+                            <p>Cursus penati saccum nulla.</p>
+                            <small>
+                                Nullamlacus dui ipsum conseque loborttis non euisque morbi penas dapibulum orna. Urnaultrices quis curabitur phasellentesque congue magnis vestibulum quismodo nulla et feugiat adipiscinia pellentum leo.
+                            </small>
+                            <button>
+                                Read more here 
+                                <span>>></span>
+                            </button>
+                        </div>
+                        <img src="img/fierce_deity_mask.png">
+                        <div class="arr-r">
+                            >
+                        </div>
+                    </div>
                     <div class="slide-mid">
                         <div class="slide-mid">
-                            <div id="arr">
+                            <div class="arr-l-c">
                                 <
                             </div>
                             <div id="t-slide">
@@ -40,10 +68,26 @@
                                 </button>
                             </div>
                             <img src="img/link1.png">
-                            <div id="arr">
+                            <div class="arr-r-c">
                                 >
                             </div>
                         </div>
+                    </div>
+                    <div class="slide-right">
+                        <div class="arr-l">
+                            <
+                        </div>
+                        <div id="t-slide">
+                            <p>Cursus penati saccum nulla.</p>
+                            <small>
+                                Nullamlacus dui ipsum conseque loborttis non euisque morbi penas dapibulum orna. Urnaultrices quis curabitur phasellentesque congue magnis vestibulum quismodo nulla et feugiat adipiscinia pellentum leo.
+                            </small>
+                            <button>
+                                Read more here 
+                                <span>>></span>
+                            </button>
+                        </div>
+                        <img src="img/triforce.png">
                     </div>
                 </div>
                 </div>
