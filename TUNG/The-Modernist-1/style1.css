@@ -4,6 +4,7 @@ body {
     padding: 0;
     background-color:#660000 ;
     background-size: auto;
+    overflow-x: hidden;
 }
 
 .box {
@@ -76,9 +77,56 @@ body {
     margin: auto;
     justify-content: center;
     align-items: center;
+    position: relative;
+    left: 0;
+    right: 0;
 }
-
-#arr {
+.slide-left {
+    left: 100%;
+    display: flex;
+    width: 1350px;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+}
+.slide-right {
+    right: 100%;
+    display: flex;
+    width: 1350px;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+}
+.arr-l {
+    color: white;
+    font-size: 40px;
+    font-weight: bolder;
+    width: auto;
+    height: auto;
+    margin: 60px;
+    cursor: pointer;
+}
+.arr-l-c {
+    color: white;
+    font-size: 40px;
+    font-weight: bolder;
+    width: auto;
+    height: auto;
+    margin: 60px;
+    cursor: pointer;
+}
+.arr-r-c {
+    color: white;
+    font-size: 40px;
+    font-weight: bolder;
+    width: auto;
+    height: auto;
+    margin: 60px;
+    cursor: pointer;
+}
+..arr-r {
     color: white;
     font-size: 40px;
     font-weight: bolder;
@@ -317,7 +365,7 @@ input {
     text-decoration: none;
 
 }
-button :hover {
+.footer-in4 button :hover {
     background-color: rgb(8, 36, 16);
 }
 .credit {
