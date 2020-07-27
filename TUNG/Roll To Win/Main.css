@@ -1,0 +1,82 @@
+body {
+    background: linear-gradient(#3e141466,#3e141466);
+    background-size: cover;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.box {
+    display: block;
+    width: 981px;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    background-color: white;
+    transform: translate(-50%,-50%);
+}
+
+.player-1 {
+    display: block;
+    height: auto;
+    background-color: rgb(241, 241, 241);
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bolder;
+    font-size: 50px;
+    padding: 100px;
+    float: left;
+}
+.player-2 {
+    display: block;
+    height: auto;
+    background-color: rgb(143, 143, 143);
+    font-weight: bolder;
+    font-size: 50px;
+    padding: 100px;
+    float: left;
+    color: white;
+}
+
+.name {
+    text-align: center;
+    margin: 10px 25px 50px 25px;
+}
+.player-score {
+    display: block;
+    color: #EB4D4D;
+    text-align: center;
+    margin-bottom: 50px;
+    font-weight: normal;
+    font-size: 80px;
+}
+
+.current-box {
+    background-color:#EB4D4D;
+    text-align: center;
+    width: 130px;
+    height: 130px;
+    margin: 0 auto;
+}
+.current-box p {
+    font-weight: initial;
+    font-size: large;
+    padding-top: 15px;
+    color: black;
+}
+.total-score {
+    font-weight: initial;
+    color: white;
+}
+
+.new-game {
+    left: 50%;
+    top: 10%;
+    transform: translate(-50%,-50%);
+    color: #EB4D4D;
+    font-weight: normal;
+    cursor: pointer;
+    position: absolute;
+    font-size: 25px;
+}
+.new-game ::before {
+    content: '\2022';
+    color: #EB4D4D;
+}
