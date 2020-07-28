@@ -89,6 +89,38 @@ i {
     -o-transition: margin 0.3s ease;
     transition: margin 0.3s ease;
 }
-i :hover {
-    margin-right: 20px;
+.dice-hole {
+    color: #5a5a5a;
+    font-weight: normal;
+    cursor: pointer;
+    position: absolute;
+    font-size: 25px;
+    text-align: center;
+    display: inline-block;
+    left: 50%;
+    top: 65%;
+    transform: translate(-50%,-50%);
+
+}
+.new-game :hover {
+    color: rgb(48, 48, 48);
+}
+.ion-ios-loop {
+    color: #EB4D4D;
+}
+.hold {
+    color: #5a5a5a;
+    font-weight: normal;
+    cursor: pointer;
+    position: absolute;
+    font-size: 25px;
+    text-align: center;
+    display: inline-block;
+    left: 50%;
+    top: 80%;
+    transform: translate(-50%,-50%);
+}
+
+.ion-ios-download-outline {
+    color: #EB4D4D;
 }
