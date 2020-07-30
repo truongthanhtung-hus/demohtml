@@ -29,8 +29,6 @@ document.querySelector('.dice-hole').addEventListener('click', function(){
             document.querySelector('#cur' + playing).textContent = '0';
             document.getElementById('dice').style.display = 'none';
             confirm("Quay vào số 1 rồi =)))");
-            roundScore[playing] = 0;
-            document.querySelector('#total' + playing).textContent = roundScore[playing];
             nextplayer();
         }
         if (score == 100){
