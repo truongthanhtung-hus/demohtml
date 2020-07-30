@@ -35,6 +35,7 @@ document.querySelector('.dice-hole').addEventListener('click', function(){
         }
         if (score == 100){
             confirm("Win")
+            newplay();
         }
     }
 }); 
