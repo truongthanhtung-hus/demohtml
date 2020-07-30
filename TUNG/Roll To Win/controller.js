@@ -8,7 +8,7 @@ function newplay(){
     document.querySelector('#cur1').textContent = '0';
     document.querySelector('#total0').textContent = '0';
     document.querySelector('#total1').textContent = '0';
-
+    document.querySelector('dice').style.display = 'none';
 }
 
 newplay();
