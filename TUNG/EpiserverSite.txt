@@ -1,0 +1,14 @@
+https://drive.google.com/drive/folders/1GgrHCtrxXY-F7J_U7K_z1noiRD8uU_qu?usp=sharing
+
+Cac file lien quan trong thu muc EpiserverSite1 : 
+
+~Models/Pages/DemoPage.cs 
+
+DemoHeader.cshtml
+
+~Views/DemoPage/Index.cshtml
+
+~Controllers/DemoPageController.cs
+
+~Views/Shared/Layouts/_Demo.cshtml
+
