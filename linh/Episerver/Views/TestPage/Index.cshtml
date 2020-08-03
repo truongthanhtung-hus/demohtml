@@ -1,0 +1,54 @@
+﻿@using EpiserverSite
+@model PageViewModel<TestPage>
+@{
+    Layout = "~/Views/Shared/Layouts/_Layout.cshtml";
+}
+
+<div class="clearfix">
+    @Html.PropertyFor(x => x.CurrentPage.Heading)
+</div>
+
+<div class="clearfix">
+    <div class="row">
+        <div class="col-1">
+            @Html.PropertyFor(x => x.CurrentPage.Avatar)
+        </div>
+        <div class="col-11">
+            @Html.PropertyFor(x => x.CurrentPage.Information)
+        </div>
+    </div>
+</div>
+
+<div class="clearfix">
+    <h6>Lastest</h6>
+    <hr />
+</div>
+
+<div class="clearfix">
+    <div class="row">
+        <div class="col-9">
+            @Html.PropertyFor(x => x.CurrentPage.Details1)
+        </div>
+        <div class="col-3">
+            @Html.PropertyFor(x => x.CurrentPage.Image1)
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-9">
+            @Html.PropertyFor(x => x.CurrentPage.Details2)
+        </div>
+        <div class="col-3">
+            @Html.PropertyFor(x => x.CurrentPage.Image2)
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-9">
+            @Html.PropertyFor(x => x.CurrentPage.Details3)
+        </div>
+        <div class="col-3">
+            @Html.PropertyFor(x => x.CurrentPage.Image3)
+        </div>
+    </div>
+</div>
