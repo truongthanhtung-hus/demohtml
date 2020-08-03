@@ -1,0 +1,28 @@
+﻿.mainbody p strong img {
+    display: block;
+    width: 100%!important;
+    height : auto!important;
+}
+
+.info {
+	margin: 0;
+	margin-top: 10px;
+}
+
+#img-id {
+    display : block;
+    border: 1px solid blue;
+    border-radius: 50%;
+    width: 35px;
+    height: 35px;
+    padding: 0;
+}
+.info div:first-child {
+        float: left;
+        width: 50px;
+}
+
+.info div:last-child {
+        float: left;
+        width: 300px;
+}

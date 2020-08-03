@@ -1,0 +1,24 @@
+﻿@using EpiserverSite3
+@model EpiserverSite3.Models.Pages.DemoPage
+<!DOCTYPE html>
+<html>
+<head>
+    <link href="~/Static/css/style.css" rel="stylesheet" />
+</head>
+<body>
+    <div class="mainbody clearfix">
+        <p>@Html.PropertyFor(m => m.MainBody)</p>
+    </div>
+    <div class="info clearfix">
+        <div id="img-id">
+            @Html.PropertyFor(m => m.Img)
+        </div>
+        <div>
+            @Html.PropertyFor(m => Model.Text)
+        </div>
+
+
+    </div>
+</body>
+</html>
+
