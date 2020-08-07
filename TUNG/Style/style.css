@@ -1,0 +1,540 @@
+﻿html {
+    background: url(/Img/back/pattern-triforce-2x.png),linear-gradient(to bottom, #023326 0%, #053335 50%, #0a1928 100%);
+    background-position: center center;
+    background-repeat: repeat, no-repeat;
+    background-size: 2.5rem, cover;
+    height: auto!important;
+    min-height: 100%;
+    position: relative;
+    background-attachment:fixed;
+}
+
+body {
+    background-size: cover;
+    background-attachment: fixed;
+    overflow-x : hidden;
+}
+
+@media (min-width: 768px) {
+    .backdrop {
+        background: url('/Img/Head/zelda-portal-hero.png') top center no-repeat;
+        background-color: black;
+        text-align: center;
+        background-size: cover;
+    }
+}
+
+@media only screen and (max-width: 767.98px) {
+    #btn span {
+        font-weight: bolder;
+        font-style: normal;
+    }
+
+    .li-2 {
+        font-size: 20px;
+        padding: 0 20px;
+        font-style: italic;
+    }
+
+    .backdrop {
+        color: #F4EFE5;
+        background-color: black;
+        background: url('/Img/Head/zelda-portal-hero-small.jpg') top center no-repeat;
+        text-align: center;
+        background-position:top;
+        background-size: 100%;
+        box-shadow: 0 15px 75px 0 #000;
+        height: 710px;
+        background-size: cover;
+    }
+
+    .header-box {
+        padding-top: 70px;
+        height: 300px;
+    }
+
+    .header-content {
+        position: relative;
+        text-align: center;
+        padding: 0 10px;
+    }
+
+    #imgfix {
+        margin: 0 auto;
+        filter: drop-shadow(1px 1px 8px #000);
+        max-width: 352px;
+        padding: 0;
+    }
+
+    .flex-row {
+        list-style-type: none;
+        margin: 0 auto;
+        padding: 0;
+    }
+
+    .logo-text {
+        color: #F4EFE5;
+        font-family: 'Bitter', serif;
+        display: inline-block;
+        font-size: 16px;
+        font-style: italic;
+        line-height: 3.4;
+        text-align: center;
+        font-weight: 200;
+        align-items: center;
+        padding: 20px 35px;
+    }
+
+    .logo-home span:before {
+        content: '';
+        background: url(/Img/Button/sword_decorator-right.png);
+        position: absolute;
+        height: 14px;
+        width: 27px;
+        top: 10%;
+        right: 65%;
+        margin-top: -10px;
+        filter: drop-shadow(1px 1px 4px rgba(0,0,0,0.74));
+    }
+
+    .logo-home span::after {
+        content: '';
+        background: url(/Img/Button/sword_decorator-left.png);
+        position: absolute;
+        height: 14px;
+        width: 25px;
+        top: 10%;
+        left: 65%;
+        filter: drop-shadow(1px 1px 4px rgba(0,0,0,0.74));
+        margin-top: -10px;
+    }
+
+    #text {
+        color: #F4EFE5;
+        font-family: 'Bitter', serif;
+        display: inline-block;
+        font-size: 20px;
+        font-style: italic;
+        line-height: 1.4;
+        text-align: center;
+        position: relative;
+        font-weight: 200;
+        align-items: center;
+        padding: 10px 0;
+    }
+
+    .btn-fix {
+        padding: 15px 54px;
+    }
+}
+
+
+@media only screen and (max-width: 490px) {
+    #imgfix {
+        margin: 0 auto;
+        filter: drop-shadow(1px 1px 8px #000);
+        max-width: 223px;
+    }
+
+    .header-box {
+        background: linear-gradient(rgba(255,0,0,0), rgba(0,0,0,0.6));
+    }
+
+    #btn span {
+        font-weight: bolder;
+        font-style: normal;
+    }
+
+    .li-2 {
+        font-size: 20px;
+        padding: 0 20px;
+        font-style: italic;
+    }
+
+    .backdrop {
+        color: #F4EFE5;
+        background-color: black;
+        background: url('/Img/Head/zelda-portal-hero-small.jpg') top center no-repeat;
+        text-align: center;
+        background-position: center;
+        background-size: 110%;
+        box-shadow: 0 15px 75px 0 #000;
+        height: 710px;
+    }
+
+    .header-box {
+        padding-top: 70px;
+        height: 300px;
+    }
+
+    .header-content {
+        position: relative;
+        text-align: center;
+        padding: 0 10px;
+    }
+
+    #imgfix {
+        margin: 0 auto;
+        filter: drop-shadow(1px 1px 8px #000);
+        max-width: 352px;
+        padding: 0;
+    }
+
+    .flex-row {
+        list-style-type: none;
+        margin: 0 auto;
+        padding: 0;
+    }
+
+    .logo-text {
+        color: #F4EFE5;
+        font-family: 'Bitter', serif;
+        display: inline-block;
+        font-size: 16px;
+        font-style: italic;
+        line-height: 3.4;
+        text-align: center;
+        font-weight: 200;
+        align-items: center;
+        padding: 20px 35px;
+    }
+
+    .logo-home span:before {
+        content: '';
+        background: url(/Img/Button/sword_decorator-right.png);
+        position: absolute;
+        height: 14px;
+        width: 27px;
+        top: 10%;
+        right: 65%;
+        margin-top: -10px;
+        filter: drop-shadow(1px 1px 4px rgba(0,0,0,0.74));
+    }
+
+    .logo-home span::after {
+        content: '';
+        background: url(/Img/Button/sword_decorator-left.png);
+        position: absolute;
+        height: 14px;
+        width: 25px;
+        top: 10%;
+        left: 65%;
+        filter: drop-shadow(1px 1px 4px rgba(0,0,0,0.74));
+        margin-top: -10px;
+    }
+
+    #text {
+        color: #F4EFE5;
+        font-family: 'Bitter', serif;
+        display: inline-block;
+        font-size: 20px;
+        font-style: italic;
+        line-height: 1.4;
+        text-align: center;
+        position: relative;
+        font-weight: 200;
+        align-items: center;
+        padding: 10px 0;
+    }
+
+    .btn-fix {
+        padding: 15px 54px;
+    }
+}
+
+@media only screen and (max-width: 650px) {
+    #imgfix {
+        margin: 0 auto;
+        filter: drop-shadow(1px 1px 8px #000);
+        max-width: 280px;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    #logo-mini {
+        display: none;
+        padding: 0 30px;
+    }
+
+    .header-box {
+        padding-top: 150px;
+        bottom: 0;
+        width: 100%;
+        height: 100%;
+        left: 0;
+        background: linear-gradient(rgba(255,0,0,0), rgba(0,0,0,0.6));
+    }
+
+    .header-content {
+        position: relative;
+        text-align: center;
+    }
+
+    .logo-text {
+        color: #F4EFE5;
+        font-family: 'Bitter', serif;
+        display: inline-block;
+        font-size: 28px;
+        font-style: italic;
+        line-height: 1.5;
+        text-align: center;
+        font-weight: 200;
+        align-items: center;
+        padding: 20px 50px;
+    }
+
+    #imgfix {
+        margin: 0 auto;
+        filter: drop-shadow(1px 1px 8px #000);
+    }
+
+    #text {
+        color: #F4EFE5;
+        font-family: 'Bitter', serif;
+        display: inline-block;
+        font-size: 28px;
+        font-style: italic;
+        line-height: 1.5;
+        text-align: center;
+        position: relative;
+        font-weight: 200;
+        align-items: center;
+        padding: 30px 0;
+    }
+
+    .cnt {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin: 0 auto;
+        max-width: 1140px;
+        width: 100%;
+    }
+
+    .col-cnt {
+        flex-basis: 66.66667%;
+        width: 66.66667%;
+        max-width: 66.66667%;
+    }
+
+    .logo-home {
+        text-align: center;
+        position: relative;
+    }
+
+    .link-menu {
+        padding-top: 150px;
+        width: 100%;
+        padding-bottom: 50px;
+    }
+
+    .flex-row {
+        list-style-type: none;
+        display: flex;
+        width: 1140px;
+        justify-content: center;
+        margin: 0 auto;
+        padding: 0;
+    }
+
+
+        .flex-row li a {
+            display: inline-block;
+            text-align: center;
+        }
+
+    .li-2 {
+        flex-basis: 33.33333%;
+        width: 33.33333%;
+        max-width: 33.33333%;
+        font-size: 24px;
+        padding: 0 20px;
+        font-style: italic;
+    }
+}
+
+.text-menu {
+    font-family: Roboto;
+    color: #cecece;
+}
+
+.nav-item {
+    padding: 5px 20px 5px 20px;
+    font-size: 16px;
+}
+
+.navbar {
+    padding: 0;
+    margin: 0;
+    background: rgba(0,0,0,0.6);
+}
+
+.bder ::before {
+    content: "";
+    height: 1px;
+    background: linear-gradient(to right, #000 0%, #EEC965 50%, #000 100%);
+    position: absolute;
+    left: 0;
+    width: 100%;
+    top: 0;
+}
+
+.bder ::after {
+    content: "";
+    height: 1px;
+    background: linear-gradient(to right, #000 0%, #EEC965 50%, #000 100%);
+    position: absolute;
+    left: 0;
+    width: 100%;
+    bottom: 0;
+}
+
+.flex-row li {
+    line-height: 1.2;
+    text-align: center;
+}
+
+    .flex-row li a {
+        text-decoration: none;
+        color: #F4EFE5;
+    }
+
+#btn span {
+    font-weight: bolder;
+    font-style: normal;
+}
+
+#btn span {
+    display: block;
+}
+
+.btn-fix {
+    padding-left: 54px;
+    padding-right: 54px;
+}
+
+    .btn-fix :hover {
+        margin: 0 10px;
+        transition: all 0.3s ease;
+    }
+
+#btn {
+    display: inline-block;
+    position: relative;
+}
+
+.btn-fix:before {
+    content: '';
+    background: url(/Img/Button/button_left_medium.png);
+    width: 36px;
+    height: 54px;
+    position: absolute;
+    top: 50%;
+    left: 0;
+    margin-top: -27px;
+    transition: all 1.0s ease;
+    margin 0;
+}
+
+.btn-fix:after {
+    content: '';
+    background: url(/Img/Button/button_right_medium.png);
+    width: 36px;
+    height: 54px;
+    position: absolute;
+    top: 50%;
+    right: 0;
+    margin-top: -27px;
+    transition: all 1.0s ease;
+}
+
+.logo-home span:before {
+    content: '';
+    background: url(/Img/Button/sword_decorator-right.png);
+    position: absolute;
+    height: 17px;
+    width: 27px;
+    top: 10%;
+    right: 65%;
+    margin-top: 5px;
+    filter: drop-shadow(1px 1px 4px rgba(0,0,0,0.74));
+}
+
+.logo-home span::after {
+    content: '';
+    background: url(/Img/Button/sword_decorator-left.png);
+    position: absolute;
+    height: 17px;
+    width: 25px;
+    top: 10%;
+    left: 65%;
+    filter: drop-shadow(1px 1px 4px rgba(0,0,0,0.74));
+    margin-top: 5px;
+}
+
+.box {
+    overflow: hidden;
+}
+
+.link-menu::after {
+    background: url(/Img/Head/hyrule_rule.png) bottom center;
+    height: 86px;
+    content: "";
+    width: 100%;
+    position: absolute;
+    left: 0;
+    margin-top: 43px;
+    z-index: 2;
+}
+
+.header-box {
+    height: 880px;
+}
+
+main {
+    display: block;
+    vertical-align: middle;
+}
+
+.mainbody {
+    position : absolute;
+    top : 980px; 
+    margin : 0 auto;
+    vertical-align : middle;
+    
+}
+
+.play-btn {
+    cursor: pointer;
+    position: absolute;
+    top: calc(50.5% - 20.5px);
+    left: calc(50% - 10.5px);
+    filter: drop-shadow(0 0 4px rgba(0,0,0,0.5));
+}
+.arround {
+    cursor: pointer;
+    background-color: rgba(55,113,121,0.9); 
+    border-radius: 50%; height: 100px; 
+    left: calc(50% - 46px); 
+    padding: 4px; 
+    position: absolute; 
+    top: calc(50% - 46px); 
+    width: 100px;
+}
+#text-bottom {
+    color: #7DA1A5;
+    text-align: center;
+    margin : 10px auto;
+    padding: 10px 0;
+    font-size: 20px;
+}
+
+.learn-more {
+    margin: 2rem auto 0;
+    position: relative;
+    text-align: center;
+    width: 92%;
+    max-width: 466px;
+    z-index: 2;
+    color: #f4efe5;
+}
